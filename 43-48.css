@@ -1,0 +1,75 @@
+.images{
+    height: 100px;
+    width: 100px;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin: 20px auto;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+
+.title {
+  margin-bottom: 20px;
+}
+
+.counter-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.counter-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  transition: 0.2s;
+}
+
+/* Different colors for increase and decrease buttons */
+.counter-btn.increase {
+  background-color: #28a745; /* green */
+}
+
+.counter-btn.increase:hover {
+  background-color: #218838;
+}
+
+.counter-btn.decrease {
+  background-color: #dc3545; /* red */
+}
+
+.counter-btn.decrease:hover {
+  background-color: #c82333;
+}
+
+.counter-value {
+  font-size: 24px;
+  width: 50px;
+  display: inline-block;
+  text-align: center;
+}
