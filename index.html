@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="43-48.css">
+    <!-- <link rel="stylesheet" href="43-48.css"> -->
 </head>
 
 <body>
@@ -96,18 +96,62 @@
     <img height="270px" width="260px" src="https://i.pinimg.com/736x/db/4f/5a/db4f5a8505f48bcb175b41a9366bf297.jpg"
         alt="Image" onmouseover="onmousepic(this)" onmouseout="mouseoutpic(this)" />
 
-   <h2 class="title">Counter</h2>
+    <h2 class="title">Counter</h2>
 
-<div class="counter-container">
-  <button class="counter-btn decrease" onclick="decrease()">Decrease</button>
-  <span class="counter-value" id="counter">0</span>
-  <button class="counter-btn increase" onclick="increase()">Increase</button>
-</div>
-
-
+    <div class="counter-container">
+        <button class="counter-btn decrease" onclick="decrease()">Decrease</button>
+        <span class="counter-value" id="counter">0</span>
+        <button class="counter-btn increase" onclick="increase()">Increase</button>
+    </div>
 
 
 
+    <h2>1) Signup Form</h2>
+    <form id="signupForm">
+        Name: <input type="text" id="name"><br><br>
+        Email: <input type="email" id="email"><br><br>
+        Password: <input type="password" id="pass"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <p id="output"></p>
+
+    <hr>
+
+    <h2>2) Read More</h2>
+    <p>
+        This is short description...
+        <span id="moreText" style="display:none;">
+            This is full description shown after clicking Read More.
+        </span>
+    </p>
+    <button id="readBtn">Read More</button>
+
+    <hr>
+
+    <h2>3) Student Form</h2>
+    <form id="studentForm">
+        Name: <input type="text" id="sname"><br><br>
+        Class: <input type="text" id="sclass"><br><br>
+        Age: <input type="number" id="sage"><br><br>
+        <button type="submit">Add Student</button>
+    </form>
+
+    <table border="1" id="table">
+        <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Age</th>
+            <th>Actions</th>
+        </tr>
+    </table>
+
+    <div id="editForm" style="display:none;">
+        <h3>Edit Student</h3>
+        Name: <input type="text" id="editName"><br><br>
+        Class: <input type="text" id="editClass"><br><br>
+        Age: <input type="number" id="editAge"><br><br>
+        <button id="updateBtn">Update</button>
+    </div>
 
 
 
@@ -126,10 +170,14 @@
 
 
 
+
+
+<!-- 
     <script src=" chap31-34.js"></script>
     <script src="chap35-38.js"></script>
     <script src="chap38-42.js"></script>
-    <script src="chap43-48.js"></script>
+    <script src="chap43-48.js"></script> -->
+    <script src="chap49-52.js"></script>
 
 </body>
 
